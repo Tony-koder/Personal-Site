@@ -1,0 +1,69 @@
+@font-face {
+    font-family: mr-robot;
+    src: url(MR\ ROBOT.ttf);
+}
+
+@font-face {
+    font-family: recharge;
+    src: url(recharge\ bd.otf);
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    font-family: mr-robot;
+    text-shadow: 0px 0px 3px black;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-shadow: 0px 0px 3px white;
+  }
+  
+  .topnav a.active {
+    background-color: #da1e37;
+    color: white;
+  }
+
+  img {
+    width: 30%;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  body {
+    background-image: linear-gradient(#3dccc7, #3dccc7, #68d8d6) ;
+    text-align: center;
+    font-family: recharge;
+  }
+
+  #introduction {
+    text-shadow: 2px 2px purple;
+    margin: 20px auto 70px auto
+  }
+  #project {
+    border: 2px dotted rgb(117, 19, 182);
+    margin: 30px 600px
+  }
+  
+  .projects {
+    display: block;
+  }
+  li {
+    list-style-position: inside;
+  }

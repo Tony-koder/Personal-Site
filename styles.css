@@ -7,7 +7,34 @@
     font-family: recharge;
     src: url(recharge\ bd.otf);
 }
-
+ @keyframes glow {
+    0% {
+      border-color: red;
+    }
+    25% {
+      border-color: blue;
+    }
+    75% {
+      border-color: yellow;
+    }
+    100% {
+      border-color: purple;
+    }
+  }
+  @-webkit-keyframes glow {
+    0% {
+      border-color: red;
+    }
+    25% {
+      border-color: blue;
+    }
+    75% {
+      border-color: yellow;
+    }
+    100% {
+      border-color: purple;
+    }
+  }
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -47,23 +74,39 @@
   }
 
   body {
-    background-image: linear-gradient(#3dccc7, #3dccc7, #68d8d6) ;
+    background-image: linear-gradient(#f318d6, #1adf44, #53cfcd) ;
     text-align: center;
     font-family: recharge;
+    text-shadow: 0px 0px 1px whitesmoke;
   }
 
   #introduction {
     text-shadow: 2px 2px purple;
-    margin: 20px auto 70px auto
+    margin: 20px auto 50px auto
   }
   #project {
-    border: 2px dotted rgb(117, 19, 182);
-    margin: 30px 600px
+    border: 3px solid blue;
+    animation: 4s infinite glow;
+    margin: 20px auto 50px auto;
+    padding: 20px
   }
   
   .projects {
-    display: block;
+    display: block;  
+  }
+
+  #business {
+    margin-bottom: 15px;
   }
   li {
     list-style-position: inside;
   }
+ main {
+  border-bottom: 2px solid gray;
+  padding-bottom: 20px;
+ }
+ footer {
+  margin: 30px 0px;
+  padding: 10px 0px;
+  background-color: rgba(110, 184, 124, 0.692);
+ }

@@ -71,6 +71,7 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+    border-radius: 99px;
   }
 
   body {
@@ -91,6 +92,10 @@
     padding: 20px
   }
   
+  #projects-top {
+  text-shadow: 2px 2px orangered
+  }
+
   .projects {
     display: block;  
   }
@@ -100,6 +105,10 @@
   }
   li {
     list-style-position: inside;
+  }
+
+  #man {
+    text-shadow: 2px 2px cyan;
   }
  main {
   border-bottom: 2px solid gray;

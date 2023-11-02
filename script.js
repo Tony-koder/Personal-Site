@@ -8,3 +8,13 @@ function toggleLightMode() {
         app.setAttribute('light-mode', 'dark');
     }
 }
+
+function hideHeader() {
+    var x = document.getElementById("header");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+    
+  }

@@ -111,6 +111,12 @@
   #projects-top {
   text-shadow: 2px 2px orangered
   }
+  .project-card {
+    background-color: #6c757d;
+    margin: 40px 300px;
+    padding: 20px;
+    text-shadow: 2px 2px cyan ;
+  }
 
   .projects {
     display: block;  
